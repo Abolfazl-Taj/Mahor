@@ -559,7 +559,8 @@ video {
   padding-right: 5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  font-family: salam;
+  font-weight: 900;
+  font-family: c;
 }
 
 .Left-Nav , .Right-Nav {
@@ -582,7 +583,4 @@ video {
 .Right-Nav {
   display: flex;
   justify-content: flex-end;
-}
-
-.Nav-Logo {
 }

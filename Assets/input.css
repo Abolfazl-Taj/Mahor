@@ -6,8 +6,8 @@
     src: url("./Fonts/tahoma.ttf");
 }
 .Navbar {
-    @apply w-full flex justify-between px-20 py-3 items-center;    
-    font-family: salam;
+    @apply w-full flex justify-between px-20 py-3 items-center font-black;    
+    font-family: c;
 }
 .Left-Nav , .Right-Nav{
     @apply w-1/2 p-[5px] px-[15px]
@@ -21,7 +21,4 @@
 }
 .Right-Nav {
  @apply flex justify-end
-}
-.Nav-Logo {
-
 }
