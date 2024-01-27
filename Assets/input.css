@@ -6,19 +6,35 @@
     src: url("./Fonts/tahoma.ttf");
 }
 .Navbar {
-    @apply w-full flex justify-between px-20 py-3 items-center font-black;    
+    @apply w-full flex justify-between px-20 py-3 items-center font-black absolute;    
     font-family: c;
 }
 .Left-Nav , .Right-Nav{
-    @apply w-1/2 p-[5px] px-[15px]
+    @apply w-1/2 p-[5px] px-[15px] text-[#fff]
 }
 
 .Nav-List{
     @apply w-full flex flex-row-reverse justify-between
 }
-.Nav-Item {
-
-}
 .Right-Nav {
  @apply flex justify-end
+}
+.Header {
+    background: url("http://scriptscenter.ir/wordpress/mahoor/wp-content/uploads/2019/08/banner6.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    @apply flex justify-center flex-col items-center bg-[#000]/70 text-[#fdfdfd] font-bold;
+}
+.HeaderTitle {
+ @apply my-3 text-[25px]
+}
+.HeaderTopic {
+    @apply my-2  text-[45px]
+}
+.HeaderDes {
+@apply my-3    font-light text-[18px] 
 }
