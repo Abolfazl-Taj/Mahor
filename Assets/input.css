@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.Navbar {
+    @apply w-full flex justify-between px-20 py-3 items-center
+}
+.Left-Nav , .Right-Nav{
+    @apply w-1/2 p-[5px] px-[15px]
+}
+
+.Nav-List{
+    @apply w-full flex flex-row-reverse justify-between
+}
+.Nav-Item {
+
+}
+.Right-Nav {
+ @apply flex justify-end
+}
+.Nav-Logo {
+
+}
