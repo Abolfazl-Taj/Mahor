@@ -562,7 +562,6 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   font-weight: 900;
-  box-shadow: inset 1px 1px 100px 1px #fff;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
   font-family: c;
@@ -627,14 +626,71 @@ video {
   font-weight: 300;
 }
 
+.Buttons {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.headerBtn {
+  position: relative;
+  z-index: 10;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 184 14 / var(--tw-bg-opacity));
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-family: sans-serif;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+.headerBtn::after{
+  content: " ";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 50px;
+  width: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.headerBtn:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 17 17 / var(--tw-text-opacity));
+}
+
+.headerBtn:hover::after {
+  width: 100%;
+}
+
+.specialbtn {
+  border-width: 1px;
+  background-color: transparent;
+}
+
 /* section1 */
 
 .top {
   margin: auto;
   margin-top: 5rem;
   display: flex;
-  width: 80%;
+  width: 1200px;
   flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 2rem;
+  padding-right: 2rem;
   text-align: right;
 }
 
@@ -643,14 +699,21 @@ video {
 }
 
 .header-wel {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-right-width: 3px;
+  --tw-border-opacity: 1;
+  border-color: rgb(255 184 14 / var(--tw-border-opacity));
+  padding-right: 0.25rem;
   font-size: 35px;
-  font-weight: 150px;
+  font-weight: 700;
 }
 
 .text-wel {
-  --tw-text-opacity: 1;
-  color: rgb(204 204 204 / var(--tw-text-opacity));
-  margin: 0 0 70px 55%;
+  text-align: right;
+  font-weight: 300;
+  color: rgb(102 102 102 / 0.9);
+  margin: 0 0 70px 28%;
 }
 
 .icon {
@@ -666,7 +729,7 @@ video {
   margin-top: 0.75rem;
   display: flex;
   width: 80%;
-  flex-direction: row;
+  flex-direction: row-reverse;
   padding-bottom: 5rem;
   text-align: right;
 }

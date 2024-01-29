@@ -7,7 +7,6 @@
 }
 .Navbar {
     @apply w-full flex justify-between px-20 py-3 items-center bg-[#111]/70 font-black  fixed;
-    box-shadow: inset 1px 1px 100px 1px #fff;
     backdrop-filter: blur(5px);    
     font-family: c;
 }
@@ -40,9 +39,38 @@
 .HeaderDes {
 @apply my-3    font-light text-[18px] 
 }
+.Buttons {
+@apply flex flex-row-reverse my-4
+
+}
+.headerBtn {
+    @apply mx-[5px] bg-[#ffb80e] px-[35px] py-[10px] rounded-full text-[14px] relative z-10 text-[#fff];
+    font-family: sans-serif; 
+    transition: all 0.5s ease-in-out;
+     overflow: hidden;
+
+}
+.headerBtn::after{
+    content: " ";
+    @apply  absolute w-0 left-0 bottom-0  bg-[#fff] h-[50px] ;
+    transition: all 0.5s ease-in-out;
+ z-index: -1;
+}
+.headerBtn:hover{
+    @apply text-[#111]
+}
+.headerBtn:hover::after{
+    @apply w-full
+}
+.specialbtn{
+    @apply bg-transparent border
+}
+
+
+
 /* section1 */
 .top{
-    @apply flex w-[80%] m-auto flex-col mt-20;
+    @apply flex w-[1200px] m-auto flex-col mt-20 px-[2rem]  justify-start; 
     text-align: right;
 }
 .orange{
@@ -50,12 +78,12 @@
 
 }
 .header-wel{
-    @apply text-[35px] ;
-    font-weight: 150px;
+    @apply text-[35px] border-r-[3px] border-[#ffb80e] pr-1 my-2 font-bold;
 }
 .text-wel{
-    @apply text-[#ccc];
-    margin: 0 0 70px 55%; 
+    @apply text-[#666]/90 text-right font-light;
+    margin: 0 0 70px 28%; 
+
 }
 .icon{
     @apply w-[15%] m-auto mb-5
@@ -64,7 +92,7 @@
     font-size: 35px;
 }
 .container{
-    @apply flex flex-row mt-3 w-[80%] m-auto pb-20 ;
+    @apply flex flex-row-reverse  mt-3 w-[80%] m-auto pb-20 ;
     text-align: right;
 
 }
