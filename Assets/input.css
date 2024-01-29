@@ -6,11 +6,13 @@
     src: url("./Fonts/tahoma.ttf");
 }
 .Navbar {
-    @apply w-full flex justify-between px-20 py-3 items-center font-black absolute;    
+    @apply w-full flex justify-between px-20 py-3 items-center bg-[#111]/70 font-black  fixed;
+    box-shadow: inset 1px 1px 100px 1px #fff;
+    backdrop-filter: blur(5px);    
     font-family: c;
 }
 .Left-Nav , .Right-Nav{
-    @apply w-1/2 p-[5px] px-[15px] text-[#fff]
+    @apply w-1/2 p-[5px] px-[15px] text-[#ffb80e] font-bold
 }
 
 .Nav-List{

@@ -551,16 +551,20 @@ video {
 }
 
 .Navbar {
-  position: absolute;
+  position: fixed;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(17 17 17 / 0.7);
   padding-left: 5rem;
   padding-right: 5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   font-weight: 900;
+  box-shadow: inset 1px 1px 100px 1px #fff;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   font-family: c;
 }
 
@@ -569,8 +573,9 @@ video {
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
+  font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(255 184 14 / var(--tw-text-opacity));
 }
 
 .Nav-List {
