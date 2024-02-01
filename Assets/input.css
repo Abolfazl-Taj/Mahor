@@ -225,3 +225,46 @@
    @apply text-black text-[20px] font-bold mt-3 mb-1
 }
 /* section 5 */
+/* section6 */
+.skill{
+    @apply flex flex-row-reverse bg-[#eeeded] text-right w-full h-[550px] mb-10 items-center
+}
+.skill-texts{
+    @apply w-[35%] m-auto text-right
+}
+.skill-text{
+    @apply text-[#a4a4a4] text-[13px] my-3 
+}
+.bar-text{
+    @apply text-black text-[19px]
+}
+.skill-img{
+    @apply w-[35%] m-auto
+}
+
+.skill-header{
+    @apply font-bold text-[35px]
+}
+.bar1,.bar2,.bar3,.bar4{
+@apply flex  w-[100%] h-[10px] bg-white my-3 ;
+border:1px solid #fff;
+border-radius: 50px;
+}
+.bar1::after{
+    content: "85%";
+    @apply bg-[#ffb80e] w-[85%] 
+}
+.bar2::after{
+    content: "95%";
+    @apply bg-[#ffb80e] w-[95%] 
+}
+.bar3::after{
+    content: "70%";
+    @apply bg-[#ffb80e] w-[70%] 
+}
+.bar4::after{
+    content: "75%";
+    @apply bg-[#ffb80e] w-[75%]
+ 
+}
+/* section6 */
