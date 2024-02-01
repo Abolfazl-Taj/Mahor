@@ -923,3 +923,63 @@ video {
 }
 
 /* section4 */
+
+/* section5 */
+
+.team {
+  margin-top: 5rem;
+  margin-right: 9rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.team-header {
+  border-right-width: 3px;
+  padding-right: 0.75rem;
+  font-size: 30px;
+  font-weight: 700;
+  border-color: #ffb80e;
+}
+
+.team-text {
+  font-size: 15px;
+  --tw-text-opacity: 1;
+  color: rgb(164 164 164 / var(--tw-text-opacity));
+  margin: 8px 0 70px 60%;
+}
+
+.team-member {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.member-items {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.name ,.job {
+  font-size: 15px;
+  --tw-text-opacity: 1;
+  color: rgb(164 164 164 / var(--tw-text-opacity));
+}
+
+.name {
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-size: 20px;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+/* section 5 */

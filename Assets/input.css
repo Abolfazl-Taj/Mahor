@@ -195,3 +195,33 @@
     @apply font-bold mt-3 text-[#fff] mb-1
 }
 /* section4 */
+
+/* section5 */
+.team{
+    @apply flex flex-col mt-20 mr-36 mb-10;
+    text-align: right;
+}
+.team-header{
+    @apply font-bold text-[30px] border-r-[3px] pr-3;
+    border-color: #ffb80e;
+
+}
+.team-text{
+    @apply text-[#a4a4a4] text-[15px] ;
+    margin: 8px 0 70px 60%; 
+
+}
+.team-member{
+    @apply flex flex-row-reverse items-center w-[80%] m-auto;
+    
+}
+.member-items{
+    @apply flex flex-col text-center mx-3 mb-20
+}
+.name ,.job{
+    @apply text-[15px] text-[#a4a4a4]
+}
+.name{
+   @apply text-black text-[20px] font-bold mt-3 mb-1
+}
+/* section 5 */
