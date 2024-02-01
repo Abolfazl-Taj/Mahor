@@ -109,7 +109,7 @@
 /* end section1 */
 /* section2 */
 .inivation{
-    @apply w-full bg-[#eeeded] flex flex-row  pb-10;
+    @apply w-full bg-[#eeeded] flex flex-row-reverse  pb-10;
     text-align: right;
 }
 .img{
@@ -132,3 +132,37 @@
 @apply text-[15px] text-[#a4a4a4] my-1
 }
 /* end section 2 */
+/* section3 */
+.about{
+    @apply flex flex-col mt-20 mr-36 mb-10;
+    text-align: right;
+}
+.header-about{
+    @apply font-bold text-[25px] border-r-[3px];
+    border-color: #ffb80e;
+
+}
+.text-about{
+    @apply text-[#a4a4a4] text-[15px] ;
+    margin: 8px 0 70px 60%; 
+
+}
+/* end section 3 */
+/* continue section3 */
+.company{
+    @apply flex w-[80%] m-auto pb-24;
+    text-align: right;
+}
+.company-img{
+    @apply w-[50%]
+}
+.text-company{
+    @apply w-[50%]
+}
+.header-company{
+    @apply font-bold text-[29px]
+}
+.text-c{
+    @apply text-[13px] text-[#a4a4a4] my-3 ml-5 text-right
+}
+/* finish section 3 */

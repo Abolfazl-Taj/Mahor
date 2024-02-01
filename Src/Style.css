@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -762,7 +762,7 @@ video {
 .inivation {
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: row-reverse;
   --tw-bg-opacity: 1;
   background-color: rgb(238 237 237 / var(--tw-bg-opacity));
   padding-bottom: 2.5rem;
@@ -807,3 +807,65 @@ video {
 }
 
 /* end section 2 */
+
+/* section3 */
+
+.about {
+  margin-top: 5rem;
+  margin-right: 9rem;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.header-about {
+  border-right-width: 3px;
+  font-size: 25px;
+  font-weight: 700;
+  border-color: #ffb80e;
+}
+
+.text-about {
+  font-size: 15px;
+  --tw-text-opacity: 1;
+  color: rgb(164 164 164 / var(--tw-text-opacity));
+  margin: 8px 0 70px 60%;
+}
+
+/* end section 3 */
+
+/* continue section3 */
+
+.company {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  padding-bottom: 6rem;
+  text-align: right;
+}
+
+.company-img {
+  width: 50%;
+}
+
+.text-company {
+  width: 50%;
+}
+
+.header-company {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.text-c {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: 1.25rem;
+  text-align: right;
+  font-size: 13px;
+  --tw-text-opacity: 1;
+  color: rgb(164 164 164 / var(--tw-text-opacity));
+}
+
+/* finish section 3 */
