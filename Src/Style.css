@@ -821,6 +821,7 @@ video {
 
 .header-about {
   border-right-width: 3px;
+  padding-right: 0.25rem;
   font-size: 25px;
   font-weight: 700;
   border-color: #ffb80e;
@@ -869,3 +870,56 @@ video {
 }
 
 /* finish section 3 */
+
+/* section4 */
+
+.dark {
+  margin-bottom: 4rem;
+  display: flex;
+  height: 330px;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(33 37 41 / var(--tw-bg-opacity));
+  background-image: url("http://scriptscenter.ir/wordpress/mahoor/wp-content/uploads/2019/08/282-pom1674-nam-id-388115-jpeg.jpg");
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  background-position:top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dark-item {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.dark-icons {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: auto;
+}
+
+.icon-dark{
+  color: #ffb80e;
+  font-size: 35px;
+}
+
+.number ,.text-dark {
+  font-size: 25px;
+  --tw-text-opacity: 1;
+  color: rgb(164 164 164 / var(--tw-text-opacity));
+}
+
+.number {
+  margin-top: 0.75rem;
+  margin-bottom: 0.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+/* section4 */
