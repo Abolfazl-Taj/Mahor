@@ -353,3 +353,26 @@ border: 2px solid transparent;
 
 
 /* section8 */
+/* section9 */
+.speak{
+    @apply h-[400px] my-16 flex flex-col;
+    background-image: url('http://scriptscenter.ir/wordpress/mahoor/wp-content/uploads/2019/08/pexels-photo-792778.jpg');
+    background-attachment: scroll;
+    background-color: #212529;
+    background-blend-mode: darken;
+    background-position: bottom;
+    background-size: cover;
+}
+.speak-text{
+    @apply flex text-center items-center w-[40%] m-auto flex-col
+}
+.t-speak{
+    @apply  text-[white] text-[20px] my-3
+}
+.name-speak{
+    @apply text-[#ffb80e] text-[20px] font-bold mt-3
+}
+.company-speak{
+    @apply text-[#a4a4a4] text-[20px]  font-bold
+}
+/* section9 */
