@@ -268,3 +268,30 @@ border-radius: 50px;
  
 }
 /* section6 */
+/* section7 */
+.question{
+@apply flex flex-col w-[45%] my-16 pl-32 ;
+text-align:right;
+}
+.question-span{
+    @apply text-[15px] text-[#ffb80e] my-1
+
+}
+.question-header{
+    @apply font-bold text-[28px] my-3
+}
+
+.paragragh-question{
+@apply text-[12px] text-[#a4a4a4]  my-1
+}
+.q-header{
+@apply text-[20px] text-[#ffb80e] font-bold my-3
+}
+.p-question{
+@apply bg-[#eeeded] text-[#a4a4a4] text-[12px] my-3;
+line-height: 2;
+}
+.text-question{
+@apply font-bold text-[18px] my-1 
+}
+/* section7 */
