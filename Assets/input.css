@@ -376,3 +376,64 @@ border: 2px solid transparent;
     @apply text-[#a4a4a4] text-[20px]  font-bold
 }
 /* section9 */
+/* section10 */
+.case{
+@apply flex flex-col w-[80%] m-auto
+}
+.case-texts{
+    @apply flex flex-col;
+    text-align: right;
+
+}
+.case-text{
+    @apply font-bold text-[25px] border-r-[3px] pr-3;
+    border-color: #ffb80e;
+}
+.case-paragragh{
+    @apply text-[#a4a4a4] text-[15px] ;
+    margin: 8px 0 70px 50%;
+}
+.case-btns{
+@apply flex flex-row-reverse m-auto mb-10;
+
+}
+.case-btn{
+@apply mx-5 items-center bg-[#e7e6e6] text-[12px]  ;
+border: 1px solid #ccc;
+border-radius:25px;
+padding: 9px 20px ;
+
+}
+.case-images{
+@apply flex flex-col mb-20
+}
+.case-img1,.case-img2{
+@apply flex flex-row
+}
+.case1{
+    @apply w-[30%] h-[330px] 
+}
+.case2{
+    @apply w-[30%] h-[430px] mx-10
+
+}
+.case3{
+    @apply w-[30%] h-[480px]
+
+}
+.case4{
+    @apply w-[30%] h-[400px];
+    margin-top: -110px;
+
+}
+.case5{
+    @apply w-[30%] h-[315px] mx-10
+    ;
+    margin-top: -25px;
+
+}
+.case6{
+    @apply w-[30%] h-[270px] mt-5;
+
+}
+/* section10 */
