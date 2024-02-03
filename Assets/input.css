@@ -525,3 +525,72 @@ overflow: hidden;
     @apply bg-white text-[#ffb80e] rounded-full  ;
 }
 /* section12 */
+/* section13 */
+.contact{
+@apply flex flex-col w-[85%] m-auto pb-16;
+}
+.contact-texts{
+    @apply flex flex-col;
+    text-align: right;
+}
+.contact-header{
+    @apply font-bold text-[25px] border-r-[3px] pr-3;
+    border-color: #ffb80e;
+}
+.contact-text{
+    @apply text-[#a4a4a4] text-[15px] ;
+    margin: 8px 0 70px 50%;
+}
+.contact-rows{
+@apply flex flex-row-reverse 
+}
+.contact-items{
+@apply flex flex-col my-5 ;
+text-align: right;
+}
+.contact-num,.contact-location,.contact-email{
+@apply flex flex-row-reverse my-5 items-center;
+}
+.num,.location,.address{
+@apply text-[#a4a4a4] text-[13px] text-center mx-3
+}
+.contact-icon{
+    @apply bg-[#f4efef] rounded-full p-3;
+    font-size: 25px;
+    color: #ffb80e;
+}
+.contact-info{
+@apply flex flex-col items-center m-auto  
+}
+.first{
+@apply flex flex-row-reverse  
+}
+.contact-name{
+@apply text-[#ccc] pr-12 pl-3;
+border: 1px solid #ccc;
+}
+.contact-em{
+    @apply text-[#ccc] pr-36 pl-3 mr-3;
+    border: 1px solid #ccc;
+}
+.second{
+@apply flex flex-col mt-5
+}
+.subject{
+    @apply text-[#ccc] pr-96 pl-3 mr-5 py-3;
+    border: 1px solid #ccc;
+}
+.massege{
+    @apply text-[#ccc] pr-96 pl-3 mr-5 py-3 mt-5;
+    border: 1px solid #ccc;
+}
+.contact-btn{
+    @apply flex items-start ml-64;
+}
+.sent{
+@apply bg-[#ffb80e] text-white text-[13px] rounded-full px-5 py-1
+}
+.sent:hover{
+    @apply text-[#ffb80e]
+}
+/* section13 */
