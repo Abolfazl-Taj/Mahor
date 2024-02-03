@@ -594,3 +594,26 @@ border: 1px solid #ccc;
     @apply text-[#ffb80e]
 }
 /* section13 */
+/* footer */
+.footer{
+@apply w-full bg-black items-center justify-center h-[150px]
+}
+.footer-items{
+@apply flex flex-col justify-center items-center
+}
+.footer-img{
+    margin-top: 15px;
+  }
+.footer-icons{
+    @apply flex flex-row-reverse;
+    margin-top: 17px;
+
+}
+.footer-icon{
+font-size: 15px;
+color: #e1e1e1;
+background-color: transparent;
+border: 1px solid #e1e1e1;
+@apply rounded-full mx-3 px-5 py-3;
+}
+/* footer */

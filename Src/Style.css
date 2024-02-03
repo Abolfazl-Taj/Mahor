@@ -1694,3 +1694,47 @@ video {
 }
 
 /* section13 */
+
+/* footer */
+
+.footer {
+  height: 150px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-img{
+  margin-top: 15px;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 17px;
+}
+
+.footer-icon{
+  font-size: 15px;
+  color: #e1e1e1;
+  background-color: transparent;
+  border: 1px solid #e1e1e1;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 9999px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* footer */
