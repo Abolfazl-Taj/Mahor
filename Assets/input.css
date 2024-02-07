@@ -246,13 +246,13 @@
     @apply font-bold text-[35px]
 }
 .bar1,.bar2,.bar3,.bar4{
-@apply flex  w-[100%] h-[10px] bg-white my-3 ;
+@apply flex  w-[100%] h-[10px] bg-white my-3 flex-row-reverse ;
 border:1px solid #fff;
 border-radius: 50px;
 }
 .bar1::after{
     content: "85%";
-    @apply bg-[#ffb80e] w-[85%] 
+    @apply bg-[#ffb80e] w-[85%]  
 }
 .bar2::after{
     content: "95%";
